@@ -26,7 +26,7 @@ body {
     height: 45%;
     width: 35%;
     transform: translate(-50%, -50%);
-    background-size: cover;
+    background-size:cover;
 }
 
 .cooked{
@@ -48,6 +48,62 @@ body {
     left: 70%;
     background: url('assets/whole-potato-washed-skinned-isolated-white-background_131238-804.jpeg');
 }
+
+.crazy{
+    background: url('assets/1024px-Kgpg_frown_of_disapproval.svg.png')
+}
+
+.fried{
+    left: 30%;
+    background: url('assets/deep_fryer_paderno_4.webp');
+}
+
+.baked{
+    left: 70%;
+    background: url('assets/Skills-Battle-Update-How-to-Bake-a-Potato-in-the-Oven_111.jpeg');
+}
+
+.bland{
+    left: 30%;
+    background: url('assets/download\ \(1\).jpeg');
+}
+
+.flavored{
+    left: 70%;
+    background: url('assets/download.jpeg');
+}
+
+.fries{
+    left: 30%;
+    background: url('assets/how-to-make-homemade-french-fries-2215971-hero-01-02f62a016f3e4aa4b41d0c27539885c3.jpeg');
+}
+
+.chips{
+    left: 70%;
+    background: url('assets/Potato-Chips.jpeg');
+}
+
+.wedges{
+    background: url('assets/instagram-In-Stream_Square___Baked-potato-wedges-4.jpeg');
+}
+
+.nice{
+    left: 30%;
+    background: url(''); 
+}
+
+.bully{
+    left: 70%;
+    background: url('');
+}
+
+.loaded{
+    background: url('');
+}
+
+
+
+
 
 .home {
     width: 50%;
