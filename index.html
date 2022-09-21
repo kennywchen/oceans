@@ -33,12 +33,12 @@
 
   <div id="fifthoption" class="option">
     <button onclick="change('fifthoption', 'eigthoption')" class="bland">Bland</button>
-    <button onclick="change('fifthoption, 'ninthoption')" class="flavored">Flavored</button>
+    <button onclick="change('fifthoption', 'ninthoption')" class="flavored">Flavored</button>
   </div>
 
   <div id="sixthoption" class="option">
-    <button class="fries">Fries</button>
-    <button class="chips">Chips</button>
+    <button onclick="change('sixthoption', 'twelvthoption')"class="fries">Fries</button>
+    <button onclick="change('sixthoption', 'seventeenthoption')" class="chips">Chips</button>
   </div>
 
   <div id="seventhoption" class="option">
@@ -46,12 +46,55 @@
   </div>
 
   <div id="eigthoption" class="option">
-    <button class="nice">Nice</button>
-    <button class="bully">Bully</button>
+    <button onclick="change('eigthoption', 'tenthoption')" class="nice">Nice</button>
+    <button onclick="change('eigthoption', 'eleventhoption')" class="bully">Bully</button>
   </div>
 
   <div id="ninthoption" class="option">
-    <button class="loaded">Loaded Baked Potato</button>
+    <button onclick='finish("ninthoption", "Loaded Baked Potato" )' class="loaded">Loaded Baked Potato</button>
+  </div>
+
+  <div id="tenthoption" class="option">
+    <button onclick="finish('tenthoption', 'Baked Sweet Potato')"class="bakedsweet">Baked Sweet Potato</button>
+  </div>
+
+  <div id="eleventhoption" class="option">
+    <button onclick="finish('eleventhoption', 'Bland Baked Potato')"class="blandbaked">Bland Baked Potato</button>
+  </div>
+
+  <div id="twelvthoption" class="option">
+    <button onclick="change('twelvthoption', 'thirteenthoption')" class="nice">Nice</button>
+    <button onclick="change('twelvthoption', 'fourteenthoption')" class="bully">Bully</button>
+  </div>
+
+  <div id="thirteenthoption" class="option">
+    <button onclick="finish('thirteenthoption', 'Sweet Potato Fry')"class="sweetfries">Sweet Potato Fries</button>
+  </div>
+
+  <div id="fourteenthoption" class="option">
+    <button onclick="change('fourteenthoption', 'fifthteenthoption')" class="straight">Straight</button>
+    <button onclick="change('fourteenthoption', 'sixteenthoption')" class="gay">Gay</button>
+  </div>
+
+  <div id="fifthteenthoption", class="option">
+    <button onclick="finish('fifthteenthoption', 'Regular Fry')" class="regularfry">Regular Fry</button>
+  </div>
+
+  <div id="sixteenthoption", class="option">
+    <button onclick="finish('sixteenthoption', 'Curly Fry')" class="curlyfry">Curly Fry</button>
+  </div>
+
+  <div id="seventeenthoption", class="option">
+    <button onclick="change('seventeenthoption', 'eigthteenthoption')" class="mustache">Mustache</button>
+    <button onclick="change('seventeenthoption', 'nineteenthoption')" class="no">No Mustache</button>
+  </div>
+
+  <div id="eigthteenthoption", class="option">
+    <button onclick="finish('eigthteenthoption', 'Pringles')" class="pringles">Pringles</button>
+  </div>
+
+  <div id="nineteenthoption", class="option">
+    <button onclick="finish('nineteenthoption', 'Lays')" class="lays">Lays</button>
   </div>
 
 </body>

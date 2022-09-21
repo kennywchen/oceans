@@ -89,18 +89,66 @@ body {
 
 .nice{
     left: 30%;
-    background: url(''); 
+    background: url('assets/kind-male-volunteer-helps-old-lady-with-cane-vector-20598473.jpeg'); 
 }
 
 .bully{
     left: 70%;
-    background: url('');
+    background: url('assets/Bully_293_300.png');
 }
 
 .loaded{
-    background: url('');
+    background: url('assets/Baked-Potato-Toppings-009.webp');
 }
 
+.bakedsweet{
+    background: url('assets/quick-baked-sweet-potatoes-1.jpeg');
+}
+
+.blandbaked{
+    background: url('assets/How-To-Make-A-Baked-Potato-Recipe-1.webp');
+}
+
+.sweetfries{
+    background: url('assets/d.jpeg');
+}
+
+.straight{
+    left: 30%;
+    background: url('assets/shutterstock_2028471422-scaled.webp');
+}
+
+.gay{
+    left: 70%;
+    background: url('assets/Gay_Pride_Flag.svg.png');
+}
+
+.regularfry{
+    background: url('assets/French-Fries-Recipe.jpeg');
+}
+
+.curlyfry{
+    background: url('assets/1940500.webp');
+}
+
+.mustache{
+    left: 30%;
+    background: url('assets/istockphoto-485318064-612x612.jpeg');
+}
+
+.no{
+    left: 70%;
+    background: url('assets/no-hipsters-allowed-mustaches-allowed-sign-vector-14988083.jpeg');
+}
+
+.pringles{
+    background: url('assets/Kellogg-Pringles-Potato-Chips-Snack_01.jpeg');
+}
+
+
+.lays{
+    background: url('assets/81mABE1sNhL._SL1500_.jpg');
+}
 
 
 

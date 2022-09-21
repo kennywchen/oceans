@@ -5,7 +5,7 @@ function change(id, id2){
 
 function finish(id, type){
     document.getElementById(id).style.display="none";
-    alert("Your potato is: " + type);
+    alert("Your potato is: " + type + "!");
     document.getElementById("homebutton").style.display="block";
 }
 
