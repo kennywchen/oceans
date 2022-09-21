@@ -10,7 +10,27 @@
 </head>
 
 <body>
-  <button onclick="hide()" id="homebutton" class="glow-on-hover">Click to Start the Potato Test</button>
+  <button onclick="change('homebutton', 'firstoption')" id="homebutton" class="home">Click to Start the Potato Test</button>
+
+  <div id="firstoption" class="option" >
+    <button onclick="change('firstoption', 'secondoption')" class="cooked">Cooked</button>
+    <button onclick="change('firstoption', 'thirdoption')" class="raw">Raw</button>
+  </div>
+
+  <div id="secondoption" class="option"> 
+    <button class="sliced">Sliced</button>
+    <button class="whole">Whole</button>
+  </div>
+
+  <div id="thirdoption" class="option">
+    <button class="crazy">You're Crazy!</button>
+  </div>
+
+  <div id="fourthoption" class="option">
+    <button></button>
+    <button></button>
+  </div>
+
 </body>
 
 </html>
