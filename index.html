@@ -6,11 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Potato Test</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js"></script>
 </head>
 
 <body>
-  <button onclick="change('homebutton', 'firstoption')" id="homebutton" class="home">Click to Start the Potato Test</button>
+  <button onclick="change('homebutton', 'zerothoption')" id="homebutton" class="home">Click to Start the Potato Test</button>
+
+  <div onsubmit="submit()" id="zerothoption" class="nameform">
+    <form id="form" type="button">
+      <input id="name" type="text" name="name" placeholder="Name:">
+    </form>
+  </div>
 
   <div id="firstoption" class="option" >
     <button onclick="change('firstoption', 'secondoption')" class="cooked">Cooked</button>
@@ -96,6 +101,8 @@
   <div id="nineteenthoption", class="option">
     <button onclick="finish('nineteenthoption', 'Lays')" class="lays">Lays</button>
   </div>
+
+  <script src="script.js"></script>
 
 </body>
 
