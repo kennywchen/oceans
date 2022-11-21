@@ -14,7 +14,7 @@ function submit(event){
 
 function finish(id, type){
     document.getElementById(id).style.display="none";
-    alert(username.value + "'s potato is: " + type + "!");
+    alert(username.value + "'s marine animal phylogeny classification is: " + type + "!");
     document.getElementById("homebutton").style.display="block";
     document.getElementById('form').reset();
 }

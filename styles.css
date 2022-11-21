@@ -7,7 +7,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: rgb(227, 208, 145);
+    background: rgb(145, 187, 227);
 }
 
 .option{
@@ -18,7 +18,7 @@ body {
 }
 
 .option button{
-    color: white;
+    color: rgb(192, 255, 233);
     -webkit-text-stroke: 2px black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 8vh;
@@ -50,131 +50,111 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 30%;
     width: 50%;
-    background-color: rgb(240, 229, 190);
+    background-color: rgb(190, 240, 232);
     border-radius: 20px;
 }
 
-
 .cooked{
     left: 30%;
-    background: url('assets/Basic-Cooking-Methods.jpeg');
+    background-color: rgb(127, 244, 255);
 }
 
 .raw{
     left: 70%;
-    background: url('assets/l-intro-1653409063.jpeg');
+    background-color: rgb(127, 244, 255);
 }
 
 .sliced{
-    left: 30%;
-    background: url('assets/russet-potatoes-sliced.jpeg');
+    background: url('./assets/istockphoto-92252755-612x612.jpg');
 }
 
 .whole{
     left: 70%;
-    background: url('assets/whole-potato-washed-skinned-isolated-white-background_131238-804.jpeg');
-}
+    background-color: rgb(127, 244, 255);}
 
 .crazy{
-    background: url('assets/1024px-Kgpg_frown_of_disapproval.svg.png')
-}
+    left: 30%;
+    background-color: rgb(127, 244, 255);}
 
 .fried{
-    left: 30%;
-    background: url('assets/deep_fryer_paderno_4.webp');
-}
+    background: url('./assets/f-d_defee56107d3be36264ea8e15b2ce235fcf02c50045702987f62cc9d+IMAGE_TINY+IMAGE_TINY.1');}
 
 .baked{
     left: 70%;
-    background: url('assets/Skills-Battle-Update-How-to-Bake-a-Potato-in-the-Oven_111.jpeg');
-}
+    background-color: rgb(127, 244, 255);}
 
 .bland{
     left: 30%;
-    background: url('assets/download\ \(1\).jpeg');
-}
+    background-color: rgb(127, 244, 255);}
 
 .flavored{
     left: 70%;
-    background: url('assets/download.jpeg');
-}
+    background-color: rgb(127, 244, 255);}
 
 .fries{
     left: 30%;
-    background: url('assets/how-to-make-homemade-french-fries-2215971-hero-01-02f62a016f3e4aa4b41d0c27539885c3.jpeg');
-}
+    background-color: rgb(127, 244, 255);}
 
 .chips{
     left: 70%;
-    background: url('assets/Potato-Chips.jpeg');
-}
+    background-color: rgb(127, 244, 255);}
 
 .wedges{
-    background: url('assets/instagram-In-Stream_Square___Baked-potato-wedges-4.jpeg');
+    background: url('./assets/MG_0104-3.jpg');}
+
+.rotifera{
+    background: url('./assets/Mikrofoto.de-Raedertier-14.jpg');
 }
 
 .nice{
     left: 30%;
-    background: url('assets/kind-male-volunteer-helps-old-lady-with-cane-vector-20598473.jpeg'); 
-}
+    background-color: rgb(127, 244, 255);}
 
 .bully{
     left: 70%;
-    background: url('assets/Bully_293_300.png');
-}
+    background-color: rgb(127, 244, 255);}
 
 .loaded{
-    background: url('assets/Baked-Potato-Toppings-009.webp');
-}
+    left: 30%;
+    background-color: rgb(127, 244, 255);}
 
 .bakedsweet{
-    background: url('assets/quick-baked-sweet-potatoes-1.jpeg');
-}
+    left: 70%;
+    background-color: rgb(127, 244, 255);}
 
 .blandbaked{
-    background: url('assets/How-To-Make-A-Baked-Potato-Recipe-1.webp');
-}
+    background: url('./assets/scanning-electron-micrograph-soybean-cyst-nematode-egg.webp');}
 
 .sweetfries{
-    background: url('assets/d.jpeg');
-}
+    background: url('./assets/Chordata.png');}
 
 .straight{
-    left: 30%;
-    background: url('assets/shutterstock_2028471422-scaled.webp');
-}
-
-.gay{
-    left: 70%;
-    background: url('assets/Gay_Pride_Flag.svg.png');
-}
+    background: url('./assets/sea-stars-starfish-Caribbean-sea.webp');}
 
 .regularfry{
-    background: url('assets/French-Fries-Recipe.jpeg');
-}
+    left: 30%;
+    background-color: rgb(127, 244, 255);}
+
+.segmentation{
+    left: 70%;
+    background-color: rgb(127, 244, 255);}
 
 .curlyfry{
-    background: url('assets/1940500.webp');
-}
+    background: url('./assets/coral-2_lg.jpg');}
 
 .mustache{
     left: 30%;
-    background: url('assets/istockphoto-485318064-612x612.jpeg');
-}
+    background-color: rgb(127, 244, 255);}
 
 .no{
     left: 70%;
-    background: url('assets/no-hipsters-allowed-mustaches-allowed-sign-vector-14988083.jpeg');
-}
-
-.pringles{
-    background: url('assets/Kellogg-Pringles-Potato-Chips-Snack_01.jpeg');
-}
-
+    background-color: rgb(127, 244, 255);}
 
 .lays{
-    background: url('assets/81mABE1sNhL._SL1500_.jpg');
-}
+    background: url('./assets/7449814_orig.jpg.crdownload');}
+
+.pringles{
+    background: url('./assets/hermitcrab.jpg');}
 
 
 
@@ -187,7 +167,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     outline: none;
     color: rgb(5, 5, 4);
-    background: rgb(240, 229, 190);
+    background: rgb(15, 130, 180);
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -196,7 +176,7 @@ body {
 
 .home:before {
     content: '';
-    background: linear-gradient(45deg, rgba(214,148,50,1), rgba(255,228,57,1), rgba(246,243,92,1));
+    background: linear-gradient(45deg, rgb(50, 214, 192), rgb(57, 209, 255), rgb(92, 125, 246));
     position: absolute;
     top: -2px;
     left:-2px;
@@ -221,7 +201,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgb(240, 229, 190);
+    background-color: rgb(15, 130, 180);
     left: 0;
     top: 0;
     border-radius: 20px;
